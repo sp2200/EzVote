@@ -1,0 +1,307 @@
+ListView(
+        padding: EdgeInsets.all(0),
+        children: <Widget>[
+          SizedBox(
+            height: 20,
+          ),
+
+          CarouselSlider(
+            autoPlay: true,
+            height: 140,
+            reverse: false,
+            viewportFraction: 0.40,
+            initialPage: 0,
+            enableInfiniteScroll: true,
+            autoPlayInterval: Duration(milliseconds: 1000),
+            autoPlayAnimationDuration: Duration(milliseconds: 1000),
+            pauseAutoPlayOnTouch: Duration(milliseconds: 100),
+            scrollDirection: Axis.horizontal,
+            items: <Widget>[
+              InkWell(
+                child: Container(
+                  /*width: MediaQuery.of(context).size.width,*/
+                  margin: EdgeInsets.symmetric(horizontal: 8),
+                  decoration: BoxDecoration(
+                    border: Border.all(color:Color.fromRGBO(147,112,219,1),width: 2),
+                    color: Color.fromRGBO(147,112,219,1),
+                  ),
+                  child: ListView(
+                    children: <Widget>[
+                      Align(alignment: Alignment.center,child:Image.asset('assets/icons/politicalW.png',),),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      Align(alignment: Alignment.center,child: Text("Political & Human Rights",style: TextStyle(color:Colors.white,fontWeight: FontWeight.bold,fontSize: 12),),),
+                    ],
+                  ),
+                ),
+                onTap: ()=>{
+                },
+              ),
+              InkWell(
+                child: Container(
+                  /*width: MediaQuery.of(context).size.width,*/
+                  margin: EdgeInsets.symmetric(horizontal: 8),
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Colors.grey,width: 2),
+                    color:Colors.grey,
+                  ),
+                  child: ListView(
+                    children: <Widget>[
+                      Align(alignment: Alignment.center,child: Image.asset('assets/icons/newsW.png',),),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      Align(alignment: Alignment.center,child: Text("News & Current Events",style: TextStyle(color:Colors.white,fontWeight: FontWeight.bold,fontSize: 12),),),
+                    ],
+                  ),
+                ),
+                onTap: ()=>{
+                },
+              ),
+              InkWell(
+                child: Container(
+                  /*width: MediaQuery.of(context).size.width,*/
+                  margin: EdgeInsets.symmetric(horizontal: 8),
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Color.fromRGBO(255, 103, 129,1),width: 2),
+                    color:Color.fromRGBO(255, 103, 129,1),
+                  ),
+                  child: ListView(
+                    children: <Widget>[
+                      Align(alignment: Alignment.center,child:Image.asset('assets/icons/lifestyleW.png',),),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      Align(alignment: Alignment.center,child: Text("Lifestyle & Health",style: TextStyle(color:Colors.white,fontWeight: FontWeight.bold,fontSize: 12),),),
+                    ],
+                  ),
+                ),
+                onTap: ()=>{
+                },
+              ),
+              InkWell(
+                child: Container(
+                  /*width: MediaQuery.of(context).size.width,*/
+                  margin: EdgeInsets.symmetric(horizontal: 8),
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Color.fromRGBO(255, 69, 0,1),width: 2),
+                    color:Color.fromRGBO(255, 69, 0,1),
+                  ),
+                  child: ListView(
+                    children: <Widget>[
+                      Align(alignment: Alignment.center,child:Image.asset('assets/icons/artW.png',),),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      Align(alignment: Alignment.center,child: Text("Arts & Entertainment",style: TextStyle(color:Colors.white,fontWeight: FontWeight.bold,fontSize: 12),),),
+                    ],
+                  ),
+                ),
+                onTap: ()=>{
+                },
+              ),
+              InkWell(
+                child: Container(
+                  /*width: MediaQuery.of(context).size.width,*/
+                  margin: EdgeInsets.symmetric(horizontal: 8),
+                  decoration: BoxDecoration(
+                      border: Border.all(color: Color.fromRGBO(255, 213, 0,1),width: 2),
+                      color: Color.fromRGBO(255, 213, 0,1)
+                  ),
+                  child: ListView(
+                    children: <Widget>[
+                      Align(alignment: Alignment.center,child:Image.asset('assets/icons/sportW.png',),),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      Align(alignment: Alignment.center,child: Text("Sport, Hobbies  & Games",style: TextStyle(color:Colors.white,fontWeight: FontWeight.bold,fontSize: 12),),),
+                    ],
+                  ),
+                ),
+                onTap: ()=>{
+                },
+              ),
+              InkWell(
+                child: Container(
+                  /*width: MediaQuery.of(context).size.width,*/
+                  margin: EdgeInsets.symmetric(horizontal: 8),
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Color.fromRGBO(112, 225, 225,1),width: 2),
+                    color:Color.fromRGBO(112, 225, 225,1),
+                  ),
+                  child: ListView(
+                    children: <Widget>[
+                      Align(alignment: Alignment.center,child:Image.asset('assets/icons/businessW.png',),),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      Align(alignment: Alignment.center,child: Text("Business & Finance",style: TextStyle(color:Colors.white,fontWeight: FontWeight.bold,fontSize: 12),),),
+                    ],
+                  ),
+                ),
+                onTap: ()=>{
+                },
+              ),
+              InkWell(
+                child: Container(
+                  /*width: MediaQuery.of(context).size.width,*/
+                  margin: EdgeInsets.symmetric(horizontal: 8),
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Color.fromRGBO(50, 205, 50,1),width: 2),
+                    color: Color.fromRGBO(50, 205, 50,1),
+                  ),
+                  child: ListView(
+                    children: <Widget>[
+                      Align(alignment: Alignment.center,child:Image.asset('assets/icons/scienceW.png',),),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      Align(alignment: Alignment.center,child: Text("Science & Nature",style: TextStyle(color:Colors.white,fontWeight: FontWeight.bold,fontSize: 12),),),
+                    ],
+                  ),
+                ),
+                onTap: ()=>{
+                },
+              ),
+              InkWell(
+                child: Container(
+                  /*width: MediaQuery.of(context).size.width,*/
+                  margin: EdgeInsets.symmetric(horizontal: 8),
+                  decoration: BoxDecoration(
+                      border: Border.all(color: Color.fromRGBO(250,128,114,1),width: 2),
+                      color:Color.fromRGBO(250,128,114,1)
+                  ),
+                  child: ListView(
+                    children: <Widget>[
+                      Align(alignment: Alignment.center,child:Image.asset('assets/icons/technologyW.png',),),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      Align(alignment: Alignment.center,child: Text("Technology & Gadgets",style: TextStyle(color:Colors.white,fontWeight: FontWeight.bold,fontSize: 12),),),
+                    ],
+                  ),
+                ),
+                onTap: ()=>{
+                },
+              ),
+              InkWell(
+                child: Container(
+                  /*width: MediaQuery.of(context).size.width,*/
+                  margin: EdgeInsets.symmetric(horizontal: 8),
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Color.fromRGBO(83, 140, 198,1),width: 2),
+                    color:Color.fromRGBO(83, 140, 198,1),
+                  ),
+                  child: ListView(
+                    children: <Widget>[
+                      Align(alignment: Alignment.center,child:Image.asset('assets/icons/everythingW.png',),),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      Align(alignment: Alignment.center,child: Text("Everything Else",style: TextStyle(color:Colors.white,fontWeight: FontWeight.bold,fontSize: 12),),),
+                    ],
+                  ),
+                ),
+                onTap: ()=>{
+                },
+              ),
+            ],
+          ),
+
+          SizedBox(
+            height: 20,
+          ),
+
+          GridView.count(
+            shrinkWrap: true,
+            scrollDirection: Axis.vertical,
+            crossAxisCount: 2,
+            children: <Widget>[
+              InkWell(
+                child: Container(
+                  margin: EdgeInsets.symmetric(horizontal: 10,vertical: 30),
+                  decoration: BoxDecoration(
+                    color: Color.fromRGBO(147,112,219,1),
+                  ),
+                  child: ListView(
+                    children: <Widget>[
+                      Align(alignment: Alignment.center,child:Image.asset('assets/icons/multipleoptions.png',),),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      Align(alignment: Alignment.center,child: Text("Multiple",style: TextStyle(color:Colors.white,fontWeight: FontWeight.bold,fontSize: 15),),),
+                    ],
+                  ),
+                ),
+                onTap: ()=>{
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context)=>displaymultiple(),
+                      )
+                  )
+                },
+              ),
+              InkWell(
+                child: Container(
+                  margin: EdgeInsets.symmetric(horizontal: 10,vertical: 30),
+                  decoration: BoxDecoration(
+                    color:Color.fromRGBO(255, 103, 129,1),
+                  ),
+                  child: ListView(
+                    children: <Widget>[
+                      Align(alignment: Alignment.center,child: Image.asset('assets/icons/ab.png',),),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      Align(alignment: Alignment.center,child: Text("A/B",style: TextStyle(color:Colors.white,fontWeight: FontWeight.bold,fontSize: 15),),),
+                    ],
+                  ),
+                ),
+                onTap: ()=>{
+                },
+              ),
+              InkWell(
+                child: Container(
+                  /*width: MediaQuery.of(context).size.width,*/
+                  margin: EdgeInsets.symmetric(horizontal: 10,vertical: 30),
+                  decoration: BoxDecoration(
+                    color:Colors.grey,
+                  ),
+                  child: ListView(
+                    children: <Widget>[
+                      Align(alignment: Alignment.center,child:Image.asset('assets/icons/rating.png',),),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      Align(alignment: Alignment.center,child: Text("Rating",style: TextStyle(color:Colors.white,fontWeight: FontWeight.bold,fontSize: 15),),),
+                    ],
+                  ),
+                ),
+                onTap: ()=>{
+                },
+              ),
+              InkWell(
+                child: Container(
+                  margin: EdgeInsets.symmetric(horizontal: 10,vertical: 30),
+                  decoration: BoxDecoration(
+                    color:Color.fromRGBO(83, 140, 198,1),
+                  ),
+                  child: ListView(
+                    children: <Widget>[
+                      Align(alignment: Alignment.center,child:Image.asset('assets/icons/agreedisagree.png',),),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      Align(alignment: Alignment.center,child: Text("Agree/Disagree",style: TextStyle(color:Colors.white,fontWeight: FontWeight.bold,fontSize: 15),),),
+                    ],
+                  ),
+                ),
+                onTap: ()=>{
+                },
+              ),
+            ],
+          )
+        ],
+      )

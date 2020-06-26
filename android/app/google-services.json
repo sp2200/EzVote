@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "551154953602",
+    "firebase_url": "https://ezvote-37614.firebaseio.com",
+    "project_id": "ezvote-37614",
+    "storage_bucket": "ezvote-37614.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551154953602:android:ca047ebd90b4ce96b6f39b",
+        "android_client_info": {
+          "package_name": "com.example.ez_vote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551154953602-1ro983ka6vgusqv2glefr32umculkm48.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ez_vote",
+            "certificate_hash": "754d6e54fe4e77dbb258030c696df3769a4435e6"
+          }
+        },
+        {
+          "client_id": "551154953602-10dpu1dpj70c5gptejhcp1ag8083inpe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwx-JdJZVFQ-A6L4oqDDsmyi92qJpzG1A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551154953602-10dpu1dpj70c5gptejhcp1ag8083inpe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

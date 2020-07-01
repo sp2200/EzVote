@@ -1,6 +1,5 @@
 # ez_vote
-
-A new Flutter application.
+EzVote is an anonymous ad-free cross platform solution for polling group of any size . Our interface make it easy for new users to answer and create polls instantly!. Discover publicly created polls with our search/browse feature.
 
 ## Getting Started
 
